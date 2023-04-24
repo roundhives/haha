@@ -782,7 +782,7 @@ class HttpFlood(Thread):
                          'Device: 2\r\n'
                          'Community-Translate-Type: true\r\n'
                          'Cookie: header={"Select-Language":"","Community-Tab-Index":"0","Connection":"Keep-Alive","Device":"2","X-API-TOKEN":"","Brightness":"dark","app-ver":"1.0.4","Content-Type":"application/json","device-model":"iPhone15,3","Build-Mode":"release","Community-Display-Type":"list","Community-Translate-Type":"true","System-Language":"zh-CN","os-ver":"16.4.1","Version":"1.0.4","Accept-Language":"en-CN","Package":"com.contentsmadang.fancast"}\r\n'
-                         'Version: 1.0.4,
+                         'Version: 1.0.4\r\n'
                          'Sec-Fetch-Mode: navigate\r\n')
 
     def select(self, name: str) -> None:
